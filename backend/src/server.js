@@ -5,17 +5,16 @@ import rateLimiter from './middleware/rateLimiter.js';
 import dotenv from 'dotenv';
 import cors from "cors";
 
-dotenv.config();
+dotenv.config(); //loads all required thins in process.env
+
 const PORT = process.env.PORT||5001;
 
 const app = express();
 
-
-
 connectionDB();
 
 app.use(cors({
-    origin:"http://localhost:5173",
+    origin:"http://localhost:5173",   //What cors does is it lets only the frontend, i.e port 5173 to access the backend
 
 })
 );

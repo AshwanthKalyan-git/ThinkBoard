@@ -17,3 +17,7 @@ try {
 }
 
 export default ratelimit;
+
+
+//we use a try-catch block anywhere becuase if an error occurs in try block, it automatically goes to the catch block, 
+// else we would have to write it line by or after each line check if there's and error.
