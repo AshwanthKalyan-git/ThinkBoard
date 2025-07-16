@@ -17,5 +17,3 @@ ThinkBoard is a minimal, idea management app designed to help you capture, organ
 - Backend: Node.js + Express (optional)
 - Database: MongoDB (for persistent storage)
 
-## Folder Structure
-
